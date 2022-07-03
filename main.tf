@@ -4,9 +4,9 @@ provider "aws" {
 locals {
   region = "us-east-1"
 }
-################################################################################
+########################################################################
 # VPC Module
-################################################################################
+########################################################################
 
 module "vpc" {
   source             = "terraform-aws-modules/vpc/aws"
@@ -21,7 +21,7 @@ module "vpc" {
   enable_vpn_gateway = each.value["enable_vpn_gateway"]
   tags = {
     Terraform   = "true"
-    Environment = "jourdans-lab"
+    Environment = "my-lab"
   }
 }
 
