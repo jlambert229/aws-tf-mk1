@@ -1,5 +1,13 @@
 # Readme
 
+<!Badges>
+  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/jlambert229/terraform-aws-vpc-deploy?style=for-the-badge)
+  ![GitHub](https://img.shields.io/github/license/jlambert229/terraform-aws-vpc-deploy?style=for-the-badge)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/jlambert229/terraform-aws-vpc-deploy?style=for-the-badge)
+  ![terraform-logo-badge](https://img.shields.io/badge/-terraform-blueviolet?style=for-the-badge&logo=terraform)
+  ![aws-logo-badge](https://img.shields.io/badge/-aws-orange?style=for-the-badge)
+<!Badges>
+
 This project contains the files to do functional VPC deployment with the `aws_module_vpc` module in AWS.
 
 ## Requirements
